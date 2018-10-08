@@ -1,6 +1,6 @@
 <template>
     <div class="app-information">
-        资讯
+        资讯的内容，巴拉巴拉巴拉巴拉巴拉巴拉...
     </div>
 </template>
 <script>

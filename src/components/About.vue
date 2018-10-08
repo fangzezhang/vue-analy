@@ -1,6 +1,6 @@
 <template>
     <div class="app-about">
-        关于
+        关于的内容，巴拉巴拉巴拉巴拉巴拉巴拉...
     </div>
 </template>
 <script>

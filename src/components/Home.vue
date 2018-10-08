@@ -1,6 +1,6 @@
 <template>
     <div class="app-home">
-        首页
+        首页的内容，巴拉巴拉巴拉巴拉巴拉巴拉...
     </div>
 </template>
 <script>

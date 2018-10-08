@@ -11,5 +11,6 @@ export default new VueRouter({
         {path: '/home', component: Home},
         {path: '/about', component: About},
         {path: '/information', component: Information},
+        {path: '*', component: Home},
     ]
 })
