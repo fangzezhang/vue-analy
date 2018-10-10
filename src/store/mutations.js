@@ -1,8 +1,10 @@
+import * as types from './type'
+
 export default {
-    add(state) {
+    [types.ADD](state) {
         state.count++
     },
-    add100(state, obj) {
+    [types.ADD100](state, obj) {
         state.count += obj.amount
     }
 }

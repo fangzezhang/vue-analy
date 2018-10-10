@@ -1,13 +1,15 @@
+import * as types from './type'
+
 export default {
     add({ commit }) {
         return new Promise((resolve, reject) => {
             setTimeout(() => {
-                commit('add');
+                commit(types.ADD);
                 resolve()
             },1000)
         })
     },
     add100({ commit }, obj) {
-        commit('add100', obj)
+        commit(types.ADD100, obj)
     }
 }
