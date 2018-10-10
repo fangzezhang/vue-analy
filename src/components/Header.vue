@@ -11,6 +11,9 @@
             }
         },
         components: {},
+        methods: {
+
+        },
         mounted() {
             this.menu = [
                 {path: '/home', name: '首页'},

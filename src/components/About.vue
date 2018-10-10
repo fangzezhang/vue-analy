@@ -1,6 +1,7 @@
 <template>
     <div class="app-about">
         关于的内容，巴拉巴拉巴拉巴拉巴拉巴拉...
+        <div>{{count}}</div>
     </div>
 </template>
 <script>
@@ -8,7 +9,14 @@
         data() {
             return {}
         },
-        components: {}
+        components: {
+
+        },
+        computed: {
+            count() {
+                return this.$store.state.count;
+            }
+        }
     }
 </script>
 <style lang="scss" scoped>
